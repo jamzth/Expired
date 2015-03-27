@@ -1,5 +1,7 @@
-Simple Post Expiration
+Expired
 ======================
+
+This was heavily based on Pippin's Simple Post Expiration. This is where I customize it even further and take over development.
 
 A simple plugin that allows you to set an expiration date on posts. 
 

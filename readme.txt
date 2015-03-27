@@ -1,4 +1,4 @@
-=== Simple Post Expiration ===
+=== Expired ===
 Plugin URI: htt;//james.hammack.us
 Author URI: htt;//james.hammack.us
 Contributors: jamzth, mordauk, rzen

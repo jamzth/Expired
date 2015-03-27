@@ -5,8 +5,7 @@ Contributors: jamzth, mordauk, rzen
 Tags: expiration, posts, expire
 Requires at least: 3.8
 Tested up to: 4.1.1
-Stable Tag: 1.3
-GitHub Plugin URI: jamzth/Expired
+Stable Tag: 1.1
 
 A simple plugin that allows you to set an expiration date on posts. Once a post is expired, an ”Expired" category will be created and/or assigned.
 
@@ -49,18 +48,6 @@ Have you found a bug or have a suggestion or improvement you'd like to submit? T
 4. Optionally add the [expires] short code to the post content
 
 == Changelog ==
-
-= 1.3 =
-
-* Improved: Overhaul to AutoUpdater for Plugin - Keep things classy!
-
-= 1.2.3 =
-
-* Fixed: Issue with AutoUpdater for WordPress - Keep things classy!
-
-= 1.2 =
-
-* Added: AutoUpdater for WordPress - Keep things classy!
 
 = 1.1 =
 

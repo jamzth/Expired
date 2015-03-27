@@ -1,26 +1,15 @@
 <?php
 /**
- * Plugin Name: Expired
- * Description: A plugin that allows you to set an expiration date on posts.
- * Version: 1.3
- * Author: James Hammack
- * Author URI: http://james.hammack.us
- * Text Domain: pw-spe
- * Domain Path: languages
- * GitHub Plugin URI: jamzth/Expired
- *
- * Expired is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 2 of the License, or
- * any later version.
- *
- * Expired is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with expired. If not, see <http://www.gnu.org/licenses/>.
+Plugin Name: Expired
+Description: A plugin that allows you to set an expiration date on posts.
+Version: 1.3
+Author: James Hammack
+Author URI: http://james.hammack.us
+License: GNU General Public License v2
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: pw-spe
+Domain Path: languages
+GitHub Plugin URI: jamzth/Expired
 */
 
 define( 'PW_SPE_ASSETS_URL', plugin_dir_url( __FILE__ ) . 'assets' );

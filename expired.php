@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Expired
  * Description: A plugin that allows you to set an expiration date on posts.
- * Version: 1.2
+ * Version: 1.2.3
  * Author: James Hammack
  * Author URI: http://james.hammack.us
  * Text Domain: pw-spe

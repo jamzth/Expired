@@ -54,6 +54,7 @@ Have you found a bug or have a suggestion or improvement you'd like to submit? T
 * Removed Expired Prefix
 * Added: Change of status to “Draft” upon expiry
 * Added: “Expired” category creation and/or assignment
+* Fixed: Bug in metabox.php on line 52
 
 = 1.0 =
 

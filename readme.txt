@@ -1,18 +1,18 @@
 === Simple Post Expiration ===
-Plugin URI: http://pippinsplugins.com/simple-post-expiration
-Author URI: http://pippinsplugins.com
-Contributors: mordauk, rzen
-Donate link: http://pippinsplugins.com/support-the-site
+Plugin URI: htt;//james.hammack.us
+Author URI: htt;//james.hammack.us
+Contributors: jamzth, mordauk, rzen
 Tags: expiration, posts, expire
 Requires at least: 3.6
-Tested up to: 4.0
-Stable Tag: 1.0
+Tested up to: 4.1.1
+Stable Tag: 1.2
 
-A simple plugin that allows you to set an expiration date on posts. Once a post is expired, "Expired" will be prefixed to the post title.
+A simple plugin that allows you to set an expiration date on posts. Once a post is expired, an ”Expired" category will be created and/or assigned.
 
 == Description ==
 
-A simple plugin that allows you to set an expiration date on posts. Once a post is expired, "Expired" will be prefixed to the post title.
+Built on https://github.com/pippinsplugins/Simple-Post-Expiration.
+A simple plugin that allows you to set an expiration date on posts. Once a post is expired, an ”Expired" category will be created and/or assigned.
 
 You can show the expiration status of a post using the [expires] short code.
 
@@ -30,7 +30,7 @@ The [expires] short code accepts 5 optional parameters:
 
 The `%s` will be replaced with the expiration date.
 
-Have you found a bug or have a suggestion or improvement you'd like to submit? This plugin is available on [Github](https://github.com/pippinsplugins/Simple-Post-Expiration) and pull requests are welcome!
+Have you found a bug or have a suggestion or improvement you'd like to submit? This plugin is available on [Github](https://github.com/jamzth/Expired) and pull requests are welcome!
 
 
 == Screenshots ==
@@ -48,6 +48,12 @@ Have you found a bug or have a suggestion or improvement you'd like to submit? T
 4. Optionally add the [expires] short code to the post content
 
 == Changelog ==
+
+= 1.1 =
+
+* Removed Expired Prefix
+* Added: Change of status to “Draft” upon expiry
+* Added: “Expired” category creation and/or assignment
 
 = 1.0 =
 

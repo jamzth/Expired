@@ -2,11 +2,12 @@
 /**
  * Plugin Name: Expired
  * Description: A plugin that allows you to set an expiration date on posts.
- * Version: 1.2.3
+ * Version: 1.3
  * Author: James Hammack
  * Author URI: http://james.hammack.us
  * Text Domain: pw-spe
  * Domain Path: languages
+ * GitHub Plugin URI: jamzth/Expired
  *
  * Expired is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by

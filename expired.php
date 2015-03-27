@@ -23,10 +23,6 @@
 */
 
 define( 'PW_SPE_ASSETS_URL', plugin_dir_url( __FILE__ ) . 'assets' );
-$pluginFile = __FILE__;
-$gitHubUsername = 'jamzth';
-$gitHubProjectName = 'Expired';
-$accessToken = '';
 
 if( is_admin() ) {
 

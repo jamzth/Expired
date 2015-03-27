@@ -49,6 +49,10 @@ Have you found a bug or have a suggestion or improvement you'd like to submit? T
 
 == Changelog ==
 
+= 1.2 =
+
+* Added: AutoUpdater for WordPress - Keep things classy!
+
 = 1.1 =
 
 * Removed Expired Prefix

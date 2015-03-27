@@ -52,7 +52,23 @@ function pw_spe_is_expired( $post_id = 0 ) {
 
 }
 
+// Register Custom Status when this is released
+function expired_post_status() {
 
+	$args = array(
+		'label'                     => _x( 'expired', 'Status General Name', 'jh' ),
+		'label_count'               => _n_noop( 'Expired (%s)',  'Expired (%s)', 'jh' ), 
+		'public'                    => false,
+		'show_in_admin_all_list'    => true,
+		'show_in_admin_status_list' => true,
+		'exclude_from_search'       => true,
+	);
+	register_post_status( 'expired', $args );
+
+}
+
+// Hook into the 'init' action
+add_action( 'init', 'expired_post_status', 0 );
 
 /*
 $post_id - The ID of the post you'd like to change.
@@ -75,7 +91,7 @@ function pw_spe_filter_title( $title = '', $post_id = 0 ) {
 		  $arg = array('description' => "Expired");
 		  $new_cat_id = wp_insert_term("Expired", "category", $arg);
 		}
-		change_post_status($post_id,'draft');
+		change_post_status($post_id,'expired');
 		$jh_cat_id = get_cat_ID('Expired');
 		wp_set_object_terms( $post_id, $jh_cat_id, 'category', true );
 

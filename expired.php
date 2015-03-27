@@ -1,28 +1,32 @@
 <?php
 /**
- * Plugin Name: Simple Post Expiration
- * Description: A simple plugin that allows you to set an expiration date on posts. Once a post is expired, "Expired" will be prefixed to the post title.
+ * Plugin Name: Expired
+ * Description: A plugin that allows you to set an expiration date on posts.
  * Version: 1.0
- * Author: Pippin Williamson
- * Author URI: http://pippinsplugins.com
+ * Author: James Hammack
+ * Author URI: http://james.hammack.us
  * Text Domain: pw-spe
  * Domain Path: languages
  *
- * Simple Post Expiration is free software: you can redistribute it and/or modify
+ * Expired is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 2 of the License, or
  * any later version.
  *
- * Simple Post Expiration is distributed in the hope that it will be useful,
+ * Expired is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with Simple Post Expiration. If not, see <http://www.gnu.org/licenses/>.
+ * along with expired. If not, see <http://www.gnu.org/licenses/>.
 */
 
 define( 'PW_SPE_ASSETS_URL', plugin_dir_url( __FILE__ ) . 'assets' );
+$pluginFile = __FILE__;
+$gitHubUsername = 'jamzth';
+$gitHubProjectName = 'Expired';
+$accessToken = '';
 
 if( is_admin() ) {
 
@@ -32,6 +36,11 @@ if( is_admin() ) {
 }
 require_once dirname( __FILE__ ) . '/includes/widgets.php';
 require_once dirname( __FILE__ ) . '/includes/shortcodes.php';
+require_once dirname( __FILE__ ) . '/includes/updateme.php';
+
+if ( is_admin() ) {
+    new PluginUpdater( __FILE__, 'jamzth', "Expired" );
+}
 
 function pw_spe_text_domain() {
 

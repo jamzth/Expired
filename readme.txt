@@ -6,6 +6,7 @@ Tags: expiration, posts, expire
 Requires at least: 3.6
 Tested up to: 4.1.1
 Stable Tag: 1.2.3
+GitHub Plugin URI: jamzth/Expired
 
 A simple plugin that allows you to set an expiration date on posts. Once a post is expired, an ”Expired" category will be created and/or assigned.
 

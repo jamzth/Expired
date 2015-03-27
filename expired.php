@@ -32,11 +32,8 @@ if( is_admin() ) {
 }
 require_once dirname( __FILE__ ) . '/includes/widgets.php';
 require_once dirname( __FILE__ ) . '/includes/shortcodes.php';
-require_once dirname( __FILE__ ) . '/includes/updateme.php';
+require_once dirname( __FILE__ ) . '/updater/github-updater.php';
 
-if ( is_admin() ) {
-    new PluginUpdater( __FILE__, 'jamzth', "Expired" );
-}
 
 function pw_spe_text_domain() {
 

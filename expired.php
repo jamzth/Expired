@@ -32,10 +32,10 @@ if (is_admin()) { // note the use of is_admin() to double check that this is hap
         'raw_url' => 'https://raw.github.com/jamzth/Expired/master', // the github raw url of your github repo
         'github_url' => 'https://github.com/jamzth/Expired', // the github url of your github repo
         'zip_url' => 'https://github.com/jamzth/Expired/zipball/master', // the zip url of the github repo
-        'sslverify' => true // wether WP should check the validity of the SSL cert when getting an update, see https://github.com/jkudish/WordPress-GitHub-Plugin-Updater/issues/2 and https://github.com/jkudish/WordPress-GitHub-Plugin-Updater/issues/4 for details
+        'sslverify' => true, // wether WP should check the validity of the SSL cert when getting an update, see https://github.com/jkudish/WordPress-GitHub-Plugin-Updater/issues/2 and https://github.com/jkudish/WordPress-GitHub-Plugin-Updater/issues/4 for details
         'requires' => '3.8', // which version of WordPress does your plugin require?
         'tested' => '4.1.1', // which version of WordPress is your plugin tested up to?
-        'readme' => 'README.MD' // which file to use as the readme for the version number
+        'readme' => 'README.md', // which file to use as the readme for the version number
     );
     new WPGitHubUpdater($config);
 }

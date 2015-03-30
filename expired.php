@@ -2,7 +2,7 @@
 /**
 Plugin Name: Expired
 Description: A plugin that allows you to set an expiration date on posts.
-Version: 1.3
+Version: 1.1
 Author: James Hammack
 Author URI: http://james.hammack.us
 License: GNU General Public License v2
@@ -21,10 +21,10 @@ if( is_admin() ) {
 }
 require_once dirname( __FILE__ ) . '/includes/widgets.php';
 require_once dirname( __FILE__ ) . '/includes/shortcodes.php';
-require_once dirname( __FILE__ ) . '/includes/updater.php';
+//require_once dirname( __FILE__ ) . '/includes/updater.php';
 
 // AutoUpdate 2.0
-if (is_admin()) { // note the use of is_admin() to double check that this is happening in the admin
+/*if (is_admin()) { // note the use of is_admin() to double check that this is happening in the admin
     $config = array(
         'slug' => plugin_basename(__FILE__), // this is the slug of your plugin
         'proper_folder_name' => 'Expired', // this is the name of the folder your plugin lives in
@@ -39,6 +39,7 @@ if (is_admin()) { // note the use of is_admin() to double check that this is hap
     );
     new WPGitHubUpdater($config);
 }
+*/
 
 function pw_spe_text_domain() {
 

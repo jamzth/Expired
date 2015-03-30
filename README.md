@@ -1,6 +1,6 @@
 Expired
 ======================
-~Current Version:1.3~
+~Current Version:1.1~
 
 This was heavily based on Pippin's Simple Post Expiration. This is where I customize it even further and take over development.
 

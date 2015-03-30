@@ -21,7 +21,7 @@ if( is_admin() ) {
 }
 require_once dirname( __FILE__ ) . '/includes/widgets.php';
 require_once dirname( __FILE__ ) . '/includes/shortcodes.php';
-include_once dirname( __FILE__ ) . '/includes/updater.php';
+require_once dirname( __FILE__ ) . '/includes/updater.php';
 
 // AutoUpdate 2.0
 if (is_admin()) { // note the use of is_admin() to double check that this is happening in the admin
